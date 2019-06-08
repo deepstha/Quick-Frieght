@@ -50,19 +50,38 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#about">About Us</a>
                             </li>
+                            <li class="dropdown nav-item">
+                                <a id="drop1" href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                                    Services
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="list.html">Listing Pge</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">Another action</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">Something else here</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">Separated link</a></li>
+                                </ul>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link " href="#contact">Contact Us</a>
                             </li>
                         </ul>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a class="nav-link" href="#"><i class="fa fa-facebook-square"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="nav-item ml-4">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-bars"></i>
+                                    <span class="glyphicon glyphicon-menu-hamburger" onclick="openSideNav()"></span>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -197,7 +216,7 @@
                         <span class="border-head">&nbsp;</span>
                     </div>
                     <div id="team-carousel" class="owl-carousel owl-theme max-height">
-                        <div class="item">
+                        <div>
                             <div class="text-left" data-aos="fade-up">
                                 <div class="text-center c-item auto">
                                     <span class="marginTop-center top d-inline-block">
@@ -213,7 +232,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div>
                             <div class="text-left" data-aos="fade-up">
                                 <div class="text-center c-item auto">
                                     <span class="marginTop-center top d-inline-block">
@@ -229,7 +248,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div>
                             <div class="text-left" data-aos="fade-up">
                                 <div class="text-center c-item auto">
                                     <span class="marginTop-center top d-inline-block">
@@ -245,7 +264,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div>
                             <div class="text-left" data-aos="fade-up">
                                 <div class="text-center c-item auto">
                                     <span class="marginTop-center top d-inline-block">
@@ -261,7 +280,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div>
                             <div class="text-left" data-aos="fade-up">
                                 <div class="text-center c-item auto">
                                     <span class="marginTop-center top d-inline-block">
@@ -277,7 +296,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div>
                             <div class="text-left" data-aos="fade-up">
                                 <div class="text-center c-item auto">
                                     <span class="marginTop-center top d-inline-block">
@@ -310,24 +329,48 @@
                     <div class="border-box flex-box has-radius10 overflow">
                         <div class="col-md-7 col-xs-12">
                             <div class="gutter">
-                                <div class="media">
-                                    <div class="mr-3">
-                                        <figure class="icon-circle sm border-ls image-centered" style="background-image:url(images/client.png)">
-                                        </figure>
+                                <div id="client-carousel" class="owl-carousel owl-theme max-height">
+                                    <div>
+                                        <div class="media">
+                                            <div class="mr-3">
+                                                <figure class="icon-circle sm border-ls image-centered" style="background-image:url(images/client.png)">
+                                                </figure>
+                                            </div>
+                                            <div class="media-body">
+                                                <div class="info">
+                                                    <h4 class="title5 title title-black">Albert Thomas</h4>
+                                                    <span>Sydney, Australia</span>
+                                                </div>
+                                                <div class="margin-top">
+                                                    <p>I am very Pleased with Qucik Frieght Nepal.We’re full service which means we’ve got you covered on design and content right through to digital. You’ll form a lasting relationship with us, collaboration
+                                                        is central to everything we do.Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                                        ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                    </p>
+                                                    <p>Quisque volutpat condimentum velit class Cras sit amet nibh libero, in gravida nulla Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="media-body">
-                                        <div class="info">
-                                            <h4 class="title5 title title-black">Albert Thomas</h4>
-                                            <span>Sydney, Australia</span>
+                                    <div>
+                                        <div class="media">
+                                            <div class="mr-3">
+                                                <figure class="icon-circle sm border-ls image-centered" style="background-image:url(images/client.png)">
+                                                </figure>
+                                            </div>
+                                            <div class="media-body">
+                                                <div class="info">
+                                                    <h4 class="title5 title title-black">Albert Thomas</h4>
+                                                    <span>Sydney, Australia</span>
+                                                </div>
+                                                <div class="margin-top">
+                                                    <p>I am very Pleased with Qucik Frieght Nepal.We’re full service which means we’ve got you covered on design and content right through to digital. You’ll form a lasting relationship with us, collaboration
+                                                        is central to everything we do.Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                                        ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                    </p>
+                                                    <p>Quisque volutpat condimentum velit class Cras sit amet nibh libero, in gravida nulla Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="margin-top">
-                                            <p>I am very Pleased with Qucik Frieght Nepal.We’re full service which means we’ve got you covered on design and content right through to digital. You’ll form a lasting relationship with us, collaboration is central
-                                                to everything we do.Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                                                Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                                            </p>
-                                            <p>Quisque volutpat condimentum velit class Cras sit amet nibh libero, in gravida nulla Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,</p>
-                                        </div>
-
                                     </div>
                                 </div>
                             </div>
